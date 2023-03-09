@@ -12,7 +12,7 @@ const search =function(event) {
             
             const imagen = document.createElement('img');
             imagen.setAttribute('src', data[0].url);
-            imagen.setAttribute('class', 'imag');
+            imagen.setAttribute('style', 'width:100%;height:98%;');
             imagen.setAttribute('id', 'photo');
 
             const active = document.getElementsByClassName('carousel-item active');
